@@ -7,7 +7,7 @@ function ABCDQR_simula(nt::Int,seed::Int)
 
 	# random seed
 	# ------------------------------
-	srand(seed)
+	Random.seed!(seed)
 
 	# simulated system
 	m = simula01()
